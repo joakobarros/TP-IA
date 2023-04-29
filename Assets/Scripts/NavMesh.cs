@@ -1,18 +1,39 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI;
 
 public class NavMesh : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    [HideInInspector]
+    public Transform perseguirObjetivo;
+
+    private NavMeshAgent navMeshAgent;
+
+    void Awake()
     {
-        
+        navMeshAgent = GetComponent<NavMeshAgent>();
     }
 
-    // Update is called once per frame
-    void Update()
+    public void ActualizarPuntoDestinoNMA(Vector3 puntoDestino)
     {
-        
+        navMeshAgent.destination = puntoDestino;
+        navMeshAgent.Resume();
     }
+
+    public void ActualizarPuntoDestinoNMA()
+    {
+        ActualizarPuntoDestinoNMA(perseguirObjetivo.position);
+    }
+
+    public void DetenerNMA()
+    {
+        navMeshAgent.Stop();
+    }
+    
+    public bool HemosLlegado()
+    {
+        return navMeshAgent.remainingDistance <= navMeshAgent.stoppingDistance && !navMeshAgent.pathPending;
+    }
+
 }
