@@ -9,7 +9,6 @@ public class MaquinaDeEstados: MonoBehaviour
     public Estado EstadoPersecucion;
     public Estado EstadoInicial;
 
-    public MeshRenderer MeshRendererIndicardor;
 
     private Estado EstadoActual;
 
@@ -24,7 +23,6 @@ public class MaquinaDeEstados: MonoBehaviour
         EstadoActual = nuevoEstado;
         EstadoActual.enabled = true;
 
-        MeshRendererIndicardor.material.color = EstadoActual.ColorEstado;
     }
 
 }
