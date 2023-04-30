@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class Estado : MonoBehaviour
 {
-    public Color ColorEstado;
 
     protected MaquinaDeEstados maquinaDeEstados;
     //protected es comop private con la diferencia que lo pueden utilizar las clases que ereden de donde este definida, en este caso Estado

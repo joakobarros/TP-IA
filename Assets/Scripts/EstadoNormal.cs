@@ -16,6 +16,7 @@ public class EstadoNormal: Estado
         vision = GetComponent<Vision>();
        
         navMesh = GetComponent<NavMesh>();
+
     }
 
     void Start()
