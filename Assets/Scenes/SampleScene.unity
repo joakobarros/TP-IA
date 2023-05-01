@@ -402,6 +402,7 @@ Transform:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 --- !u!43 &451532478
 Mesh:
@@ -574,6 +575,9 @@ Mesh:
 =======
 --- !u!1001 &320456825
 >>>>>>> parent of 23549589 (SEX)
+=======
+--- !u!1001 &320456825
+>>>>>>> parent of 23549589 (SEX)
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -596,7 +600,11 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: -1.73
+=======
+      value: -14.12
+>>>>>>> parent of 23549589 (SEX)
 =======
       value: -14.12
 >>>>>>> parent of 23549589 (SEX)
@@ -634,6 +642,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     - target: {fileID: -447275898630060098, guid: a74e78a89f3b61a408fc6e507beae773, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4.04
@@ -650,6 +659,8 @@ PrefabInstance:
 >>>>>>> parent of 23549589 (SEX)
 =======
 >>>>>>> parent of 23549589 (SEX)
+=======
+>>>>>>> parent of 23549589 (SEX)
     - target: {fileID: 919132149155446097, guid: a74e78a89f3b61a408fc6e507beae773, type: 3}
       propertyPath: m_Name
       value: Arco
@@ -658,8 +669,11 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: a74e78a89f3b61a408fc6e507beae773, type: 3}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 06b7ae1e828fdc622f8f5cd7787be2af72fb5f95
 =======
+=======
+>>>>>>> parent of 23549589 (SEX)
 =======
 >>>>>>> parent of 23549589 (SEX)
 --- !u!1001 &364652199
@@ -720,6 +734,9 @@ PrefabInstance:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ddbc1e1cefb5c3846be5cd28ebe8b69b, type: 3}
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 23549589 (SEX)
+=======
 >>>>>>> parent of 23549589 (SEX)
 =======
 >>>>>>> parent of 23549589 (SEX)
@@ -1720,9 +1737,12 @@ Mesh:
     path: 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 06b7ae1e828fdc622f8f5cd7787be2af72fb5f95
 =======
+=======
+>>>>>>> parent of 23549589 (SEX)
 =======
 >>>>>>> parent of 23549589 (SEX)
 --- !u!1001 &1430182737
@@ -1840,6 +1860,9 @@ PrefabInstance:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 211ae463aee87a646b14559b4012b484, type: 3}
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 23549589 (SEX)
+=======
 >>>>>>> parent of 23549589 (SEX)
 =======
 >>>>>>> parent of 23549589 (SEX)
