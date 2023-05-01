@@ -2,16 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EstadoPersecucion : MonoBehaviour
+public class EstadoPersecucion : Estado
 {
 
-    private MaquinaDeEstados maquinaDeEstados;
+    
     private NavMesh navMesh;
     private Vision vision;
 
-    void Awake()
+    protected virtual void Awake()
     {
-        maquinaDeEstados = GetComponent<MaquinaDeEstados>();
+        base.Awake();
         navMesh = GetComponent<NavMesh>();
         vision = GetComponent<Vision>();
 

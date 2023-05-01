@@ -2,14 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EstadoAlerta : MonoBehaviour
+public class EstadoAlerta : Estado
 {
     public float velocidadGiroBusqueda = 120f;
 
     //busqueda
     public float duracionBusqueda = 4f; 
 
-    private MaquinaDeEstados maquinaDeEstados;
     private NavMesh navMesh;
     private Vision vision;
 
@@ -17,9 +16,10 @@ public class EstadoAlerta : MonoBehaviour
     private float tiempoBuscando;
 
     // Start is called before the first frame update
-    void Awake()
+    protected virtual void Awake()
     {
-        maquinaDeEstados = GetComponent<MaquinaDeEstados>();
+        base.Awake();
+       // Debug.Log("Hola");
         navMesh = GetComponent<NavMesh>();
         vision = GetComponent<Vision>();
 

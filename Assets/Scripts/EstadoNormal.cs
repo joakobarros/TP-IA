@@ -2,20 +2,21 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EstadoNormal: MonoBehaviour
+public class EstadoNormal: Estado
 {
     public Transform[] WayPoints;
 
     private Vision vision;
-    private MaquinaDeEstados maquinaDeEstados;
     private NavMesh navMesh;
     private int siguienteWayPoint;
 
-    void Awake()
+    protected virtual void Awake()
     {
+        base.Awake();
         vision = GetComponent<Vision>();
-        maquinaDeEstados = GetComponent<MaquinaDeEstados>();
+       
         navMesh = GetComponent<NavMesh>();
+
     }
 
     void Start()
