@@ -1,5 +1,6 @@
 { "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
 <<<<<<< HEAD
+<<<<<<< HEAD
 ,{ "pid":12345, "tid":0, "ts":1682979228884461, "dur":1664, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
 ,{ "pid":12345, "tid":0, "ts":1682979228886141, "dur":443, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
 ,{ "pid":12345, "tid":0, "ts":1682979228886656, "dur":38, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
@@ -995,6 +996,8 @@
 ,{ "pid":12345, "tid":8, "ts":1682979228952312, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
 ,{ "pid":12345, "tid":0, "ts":1682979228959187, "dur":5113, "ph":"X", "name": "ProfilerWriteOutput" }
 =======
+=======
+>>>>>>> parent of 23549589 (SEX)
 ,{ "pid":12345, "tid":0, "ts":1682884883639942, "dur":1116, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
 ,{ "pid":12345, "tid":0, "ts":1682884883641065, "dur":3100, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
 ,{ "pid":12345, "tid":0, "ts":1682884883644230, "dur":34, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
@@ -1069,5 +1072,8 @@
 ,{ "pid":12345, "tid":16, "ts":1682884883645459, "dur":2115, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
 ,{ "pid":12345, "tid":16, "ts":1682884883647574, "dur":1722, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
 ,{ "pid":12345, "tid":0, "ts":1682884883654574, "dur":465, "ph":"X", "name": "ProfilerWriteOutput" }
+<<<<<<< HEAD
+>>>>>>> parent of 23549589 (SEX)
+=======
 >>>>>>> parent of 23549589 (SEX)
 ,

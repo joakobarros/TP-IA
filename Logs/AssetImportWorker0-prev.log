@@ -3,12 +3,15 @@ Built from '2021.3/staging' branch; Version is '2021.3.23f1 (213b516bf396) revis
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'es' Physical Memory: 6045 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
 C:\Users\Maximo\Desktop\Unity 2021.3.23f1\Editor\Unity.exe
 =======
+=======
+>>>>>>> parent of 23549589 (SEX)
 =======
 >>>>>>> parent of 23549589 (SEX)
 =======
@@ -20,6 +23,9 @@ COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\2021.3.23f1\Editor\Unity.exe
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 23549589 (SEX)
+=======
 >>>>>>> parent of 23549589 (SEX)
 =======
 >>>>>>> parent of 23549589 (SEX)
@@ -31,6 +37,7 @@ C:\Program Files\Unity\Hub\Editor\2021.3.23f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -52,6 +59,8 @@ C:/Users/Pedro/Desktop/Tp Gruapl Fuchibol/TP-IA
 >>>>>>> parent of 23549589 (SEX)
 =======
 >>>>>>> parent of 23549589 (SEX)
+=======
+>>>>>>> parent of 23549589 (SEX)
 C:/Users/Pedro/Desktop/Tp Gruapl Fuchibol/TP-IA
 -logFile
 Logs/AssetImportWorker0.log
@@ -61,6 +70,9 @@ Successfully changed project path to: C:/Users/Pedro/Desktop/Tp Gruapl Fuchibol/
 C:/Users/Pedro/Desktop/Tp Gruapl Fuchibol/TP-IA
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 23549589 (SEX)
+=======
 >>>>>>> parent of 23549589 (SEX)
 =======
 >>>>>>> parent of 23549589 (SEX)
@@ -98,6 +110,7 @@ C:/Users/Pedro/Desktop/Tp Gruapl Fuchibol/TP-IA
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD:Logs/AssetImportWorker0.log
 Player connection [7288] Host "[IP] 192.168.0.104 [Port] 0 [Flags] 2 [Guid] 1711225304 [EditorId] 1711225304 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-R5CLT26) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
@@ -111,11 +124,14 @@ Refreshing native plugins compatible for Editor in 701.65 ms, found 3 plugins.
 >>>>>>> parent of 23549589 (SEX)
 =======
 >>>>>>> parent of 23549589 (SEX)
+=======
+>>>>>>> parent of 23549589 (SEX)
 Player connection [7792] Host "[IP] 192.168.0.9 [Port] 0 [Flags] 2 [Guid] 3177837154 [EditorId] 3177837154 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-CB745L2) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
 Player connection [7792] Host "[IP] 192.168.0.9 [Port] 0 [Flags] 2 [Guid] 3177837154 [EditorId] 3177837154 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-CB745L2) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 Refreshing native plugins compatible for Editor in 94.45 ms, found 3 plugins.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -155,6 +171,8 @@ Domain Reload Profiling:
 >>>>>>> parent of 23549589 (SEX)
 =======
 >>>>>>> parent of 23549589 (SEX)
+=======
+>>>>>>> parent of 23549589 (SEX)
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.23f1 (213b516bf396)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.23f1/Editor/Data/Resources/UnitySubsystems
@@ -169,6 +187,9 @@ Direct3D:
 Initialize mono
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 23549589 (SEX)
+=======
 >>>>>>> parent of 23549589 (SEX)
 =======
 >>>>>>> parent of 23549589 (SEX)
@@ -195,7 +216,10 @@ Domain Reload Profiling:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> parent of 23549589 (SEX):Logs/AssetImportWorker0-prev.log
+=======
+>>>>>>> parent of 23549589 (SEX)
 =======
 >>>>>>> parent of 23549589 (SEX)
 =======
@@ -206,6 +230,7 @@ Domain Reload Profiling:
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -232,6 +257,8 @@ Domain Reload Profiling:
 >>>>>>> parent of 23549589 (SEX)
 =======
 >>>>>>> parent of 23549589 (SEX)
+=======
+>>>>>>> parent of 23549589 (SEX)
 			CreateAndSetChildDomain (1ms)
 		EndReloadAssembly (477ms)
 			LoadAssemblies (84ms)
@@ -250,7 +277,10 @@ Domain Reload Profiling:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> parent of 23549589 (SEX):Logs/AssetImportWorker0-prev.log
+=======
+>>>>>>> parent of 23549589 (SEX)
 =======
 >>>>>>> parent of 23549589 (SEX)
 =======
@@ -263,6 +293,7 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -322,6 +353,8 @@ Total: 15.860900 ms (FindLiveObjects: 0.833900 ms CreateObjectMapping: 0.645200 
 >>>>>>> parent of 23549589 (SEX)
 =======
 >>>>>>> parent of 23549589 (SEX)
+=======
+>>>>>>> parent of 23549589 (SEX)
 Registered in 0.005310 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Pedro\Desktop\Tp Gruapl Fuchibol\TP-IA\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
@@ -329,6 +362,9 @@ Symbol file LoadedFromMemory doesn't match image C:\Users\Pedro\Desktop\Tp Gruap
 Native extension for WindowsStandalone target not found
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 23549589 (SEX)
+=======
 >>>>>>> parent of 23549589 (SEX)
 =======
 >>>>>>> parent of 23549589 (SEX)
@@ -378,7 +414,10 @@ Total: 3.104400 ms (FindLiveObjects: 0.376400 ms CreateObjectMapping: 0.079100 m
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> parent of 23549589 (SEX):Logs/AssetImportWorker0-prev.log
+=======
+>>>>>>> parent of 23549589 (SEX)
 =======
 >>>>>>> parent of 23549589 (SEX)
 =======
@@ -401,12 +440,15 @@ Received Import Request.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD:Logs/AssetImportWorker0.log
   Time since last request: 447738.121725 seconds.
   path: Assets/Blender/Jugador 5.fbx
   artifactKey: Guid(ba54bfe8ff1bf004a94031e59cb33da1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Blender/Jugador 5.fbx using Guid(ba54bfe8ff1bf004a94031e59cb33da1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93dbb41167da517328e42bf71ffe5134') in 2.880189 seconds 
 =======
+=======
+>>>>>>> parent of 23549589 (SEX)
 =======
 >>>>>>> parent of 23549589 (SEX)
 =======
@@ -444,7 +486,10 @@ Start importing Assets/Blender/Jugador 4.fbx using Guid(ba54bfe8ff1bf004a94031e5
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> parent of 23549589 (SEX):Logs/AssetImportWorker0-prev.log
+=======
+>>>>>>> parent of 23549589 (SEX)
 =======
 >>>>>>> parent of 23549589 (SEX)
 =======

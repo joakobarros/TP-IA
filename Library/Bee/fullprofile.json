@@ -10,6 +10,7 @@
 { "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
 { "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
 <<<<<<< HEAD
+<<<<<<< HEAD
 { "pid": 0, "tid": 1, "ts": 1682979228679204, "dur": 294686, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
 { "pid": 0, "tid": 1, "ts": 1682979228681599, "dur": 100660, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
 { "pid": 0, "tid": 1, "ts": 1682979228782999, "dur": 180076, "ph": "X", "name": "Run Backend", "args": {} },
@@ -1023,6 +1024,17 @@
 { "pid": 0, "tid": 1, "ts": 1682884888438501, "dur": 871, "ph": "X", "name": "ChromeTraceHeader", "args": {} },
 { "pid": 0, "tid": 1, "ts": 1682884888442741, "dur": 1055, "ph": "X", "name": "", "args": {} },
 { "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+=======
+{ "pid": 0, "tid": 1, "ts": 1682884883499137, "dur": 4938011, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1682884883500582, "dur": 105691, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1682884883606417, "dur": 124561, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1682884883731023, "dur": 1334707, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1682884885065732, "dur": 3271221, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1682884888336976, "dur": 100173, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1682884888438501, "dur": 871, "ph": "X", "name": "ChromeTraceHeader", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1682884888442741, "dur": 1055, "ph": "X", "name": "", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+>>>>>>> parent of 23549589 (SEX)
 ,{ "pid":12345, "tid":0, "ts":1682884883639942, "dur":1116, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
 ,{ "pid":12345, "tid":0, "ts":1682884883641065, "dur":3100, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
 ,{ "pid":12345, "tid":0, "ts":1682884883644230, "dur":34, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
@@ -1898,6 +1910,9 @@
 ,{ "pid":12345, "tid":0, "ts":1682884887057783, "dur":2570, "ph":"X", "name": "ProfilerWriteOutput" }
 ,{ "pid": 0, "tid": 1, "ts": 1682884888448316, "dur": 677, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
 { "pid": 0, "tid": 1, "ts": 1682884888440947, "dur": 8066, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+<<<<<<< HEAD
+>>>>>>> parent of 23549589 (SEX)
+=======
 >>>>>>> parent of 23549589 (SEX)
 {}
 

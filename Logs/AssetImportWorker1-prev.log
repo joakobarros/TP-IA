@@ -4,6 +4,7 @@ Built from '2021.3/staging' branch; Version is '2021.3.23f1 (213b516bf396) revis
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 23549589 (SEX)
 OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'es' Physical Memory: 6045 MB
@@ -17,6 +18,8 @@ C:\Users\Maximo\Desktop\Unity 2021.3.23f1\Editor\Unity.exe
 >>>>>>> parent of 23549589 (SEX)
 =======
 >>>>>>> parent of 23549589 (SEX)
+=======
+>>>>>>> parent of 23549589 (SEX)
 OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'es' Physical Memory: 32677 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
@@ -24,7 +27,10 @@ COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\2021.3.23f1\Editor\Unity.exe
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 3f20740846325851701b14c8bb2899154c2329fd
+=======
+>>>>>>> parent of 23549589 (SEX)
 =======
 >>>>>>> parent of 23549589 (SEX)
 =======
@@ -41,6 +47,7 @@ AssetImportWorker1
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 C:/Users/Maximo/Desktop/PIAPC/TP-IA
 -logFile
 Logs/AssetImportWorker2.log
@@ -53,6 +60,8 @@ C:/Users/Maximo/Desktop/PIAPC/TP-IA
 >>>>>>> parent of 23549589 (SEX)
 =======
 >>>>>>> parent of 23549589 (SEX)
+=======
+>>>>>>> parent of 23549589 (SEX)
 C:/Users/Pedro/Desktop/Tp Gruapl Fuchibol/TP-IA
 -logFile
 Logs/AssetImportWorker1.log
@@ -60,6 +69,7 @@ Logs/AssetImportWorker1.log
 50116
 Successfully changed project path to: C:/Users/Pedro/Desktop/Tp Gruapl Fuchibol/TP-IA
 C:/Users/Pedro/Desktop/Tp Gruapl Fuchibol/TP-IA
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 3f20740846325851701b14c8bb2899154c2329fd
@@ -77,6 +87,8 @@ C:/Users/Maximo/Desktop/PIAPC/TP-IA
 Successfully changed project path to: C:/Users/Pedro/Desktop/Tp Gruapl Fuchibol/TP-IA
 C:/Users/Pedro/Desktop/Tp Gruapl Fuchibol/TP-IA
 >>>>>>>> parent of 23549589 (SEX):Logs/AssetImportWorker1-prev.log
+>>>>>>> parent of 23549589 (SEX)
+=======
 >>>>>>> parent of 23549589 (SEX)
 =======
 >>>>>>> parent of 23549589 (SEX)
@@ -114,6 +126,7 @@ C:/Users/Pedro/Desktop/Tp Gruapl Fuchibol/TP-IA
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<<< HEAD:Logs/AssetImportWorker2-prev.log
 <<<<<<< HEAD
 =======
@@ -131,11 +144,14 @@ Refreshing native plugins compatible for Editor in 166.44 ms, found 3 plugins.
 >>>>>>> parent of 23549589 (SEX)
 =======
 >>>>>>> parent of 23549589 (SEX)
+=======
+>>>>>>> parent of 23549589 (SEX)
 Player connection [8180] Host "[IP] 192.168.0.9 [Port] 0 [Flags] 2 [Guid] 3800971437 [EditorId] 3800971437 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-CB745L2) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
 Player connection [8180] Host "[IP] 192.168.0.9 [Port] 0 [Flags] 2 [Guid] 3800971437 [EditorId] 3800971437 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-CB745L2) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 Refreshing native plugins compatible for Editor in 94.47 ms, found 3 plugins.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>>> parent of 23549589 (SEX):Logs/AssetImportWorker1-prev.log
@@ -186,6 +202,8 @@ Refreshing native plugins compatible for Editor in 94.47 ms, found 3 plugins.
 >>>>>>> parent of 23549589 (SEX)
 =======
 >>>>>>> parent of 23549589 (SEX)
+=======
+>>>>>>> parent of 23549589 (SEX)
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.23f1 (213b516bf396)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.23f1/Editor/Data/Resources/UnitySubsystems
@@ -200,8 +218,11 @@ Direct3D:
 Initialize mono
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 ========
+>>>>>>> parent of 23549589 (SEX)
+=======
 >>>>>>> parent of 23549589 (SEX)
 =======
 >>>>>>> parent of 23549589 (SEX)
@@ -226,6 +247,7 @@ Domain Reload Profiling:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<<< HEAD:Logs/AssetImportWorker2-prev.log
 	ReloadAssembly (688ms)
 		BeginReloadAssembly (89ms)
@@ -244,10 +266,15 @@ Domain Reload Profiling:
 	ReloadAssembly (670ms)
 		BeginReloadAssembly (85ms)
 >>>>>>> parent of 23549589 (SEX)
+=======
+	ReloadAssembly (670ms)
+		BeginReloadAssembly (85ms)
+>>>>>>> parent of 23549589 (SEX)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -279,6 +306,8 @@ Domain Reload Profiling:
 >>>>>>> parent of 23549589 (SEX)
 =======
 >>>>>>> parent of 23549589 (SEX)
+=======
+>>>>>>> parent of 23549589 (SEX)
 			CreateAndSetChildDomain (1ms)
 		EndReloadAssembly (477ms)
 			LoadAssemblies (83ms)
@@ -297,9 +326,12 @@ Domain Reload Profiling:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 3f20740846325851701b14c8bb2899154c2329fd
 =======
 >>>>>>>> parent of 23549589 (SEX):Logs/AssetImportWorker1-prev.log
+>>>>>>> parent of 23549589 (SEX)
+=======
 >>>>>>> parent of 23549589 (SEX)
 =======
 >>>>>>> parent of 23549589 (SEX)
@@ -311,6 +343,7 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -397,6 +430,9 @@ Registered in 0.005091 seconds.
 =======
 Registered in 0.005091 seconds.
 >>>>>>> parent of 23549589 (SEX)
+=======
+Registered in 0.005091 seconds.
+>>>>>>> parent of 23549589 (SEX)
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Pedro\Desktop\Tp Gruapl Fuchibol\TP-IA\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Pedro\Desktop\Tp Gruapl Fuchibol\TP-IA\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
@@ -415,8 +451,11 @@ Domain Reload Profiling:
 			ReleaseScriptingObjects (0ms)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 ========
+>>>>>>> parent of 23549589 (SEX)
+=======
 >>>>>>> parent of 23549589 (SEX)
 =======
 >>>>>>> parent of 23549589 (SEX)
@@ -441,6 +480,9 @@ Domain Reload Profiling:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 23549589 (SEX)
 =======
 >>>>>>> parent of 23549589 (SEX)
 =======
@@ -455,6 +497,7 @@ Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 second
 Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3430 Unused Serialized files (Serialized files now loaded: 0)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<<< HEAD:Logs/AssetImportWorker2-prev.log
@@ -500,6 +543,11 @@ Unloading 25 unused Assets / (150.9 KB). Loaded Objects now: 3891.
 Memory consumption went from 123.7 MB to 123.5 MB.
 Total: 3.404900 ms (FindLiveObjects: 0.386200 ms CreateObjectMapping: 0.080500 ms MarkObjects: 2.790400 ms  DeleteObjects: 0.146600 ms)
 >>>>>>> parent of 23549589 (SEX)
+=======
+Unloading 25 unused Assets / (150.9 KB). Loaded Objects now: 3891.
+Memory consumption went from 123.7 MB to 123.5 MB.
+Total: 3.404900 ms (FindLiveObjects: 0.386200 ms CreateObjectMapping: 0.080500 ms MarkObjects: 2.790400 ms  DeleteObjects: 0.146600 ms)
+>>>>>>> parent of 23549589 (SEX)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -511,6 +559,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -538,6 +587,8 @@ Start importing Assets/Blender/Arco.fbx using Guid(a74e78a89f3b61a408fc6e507beae
 >>>>>>> parent of 23549589 (SEX)
 ========
 >>>>>>>> parent of 23549589 (SEX):Logs/AssetImportWorker1-prev.log
+=======
+>>>>>>> parent of 23549589 (SEX)
 =======
 >>>>>>> parent of 23549589 (SEX)
 =======

@@ -20,7 +20,11 @@ MonoBehaviour:
     height: 981
   m_ShowMode: 4
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Title: Hierarchy
+=======
+  m_Title: Console
+>>>>>>> parent of 23549589 (SEX)
 =======
   m_Title: Console
 >>>>>>> parent of 23549589 (SEX)
@@ -336,9 +340,15 @@ MonoBehaviour:
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_SelectedIDs: ec5b0000
     m_LastClickedID: 23532
     m_ExpandedIDs: 00000000ec5b000000ca9a3bffffff7f
+=======
+    m_SelectedIDs: 705e0000
+    m_LastClickedID: 24176
+    m_ExpandedIDs: 00000000505e000000ca9a3bffffff7f
+>>>>>>> parent of 23549589 (SEX)
 =======
     m_SelectedIDs: 705e0000
     m_LastClickedID: 24176
@@ -372,7 +382,11 @@ MonoBehaviour:
     m_SelectedIDs: 
     m_LastClickedID: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_ExpandedIDs: 00000000ec5b0000
+=======
+    m_ExpandedIDs: 00000000
+>>>>>>> parent of 23549589 (SEX)
 =======
     m_ExpandedIDs: 00000000
 >>>>>>> parent of 23549589 (SEX)
@@ -508,7 +522,11 @@ MonoBehaviour:
       m_SelectedIDs: 
       m_LastClickedID: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
       m_ExpandedIDs: 36fbffff
+=======
+      m_ExpandedIDs: 34fbffff
+>>>>>>> parent of 23549589 (SEX)
 =======
       m_ExpandedIDs: 34fbffff
 >>>>>>> parent of 23549589 (SEX)
@@ -846,7 +864,11 @@ MonoBehaviour:
     m_Target: {x: 0.13545391, y: 0.30383378, z: -0.043687597, w: 0.94203657}
     speed: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Value: {x: -0.14014567, y: 0.57078177, z: -0.099631004, w: -0.80289775}
+=======
+    m_Value: {x: 0.13538796, y: 0.30524588, z: -0.04389064, w: 0.94157785}
+>>>>>>> parent of 23549589 (SEX)
 =======
     m_Value: {x: 0.13538796, y: 0.30524588, z: -0.04389064, w: 0.94157785}
 >>>>>>> parent of 23549589 (SEX)
