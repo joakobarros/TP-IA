@@ -36,14 +36,14 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\NavMesh.cs" />
      <Compile Include="Assets\Scripts\Vision.cs" />
-     <Compile Include="Assets\Scripts\Enemigos.cs" />
-     <Compile Include="Assets\Scripts\EstadoNormal.cs" />
-     <Compile Include="Assets\Scripts\MaquinaDeEstados.cs" />
      <Compile Include="Assets\Scripts\EstadoPersecucion.cs" />
+     <Compile Include="Assets\Scripts\Enemigos.cs" />
      <Compile Include="Assets\Scripts\Player.cs" />
+     <Compile Include="Assets\Scripts\EstadoNormal.cs" />
      <Compile Include="Assets\Scripts\EstadoAlerta.cs" />
+     <Compile Include="Assets\Scripts\NavMesh.cs" />
+     <Compile Include="Assets\Scripts\MaquinaDeEstados.cs" />
     <Reference Include="UnityEngine">
         <HintPath>T:\unity\2021.3.23f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
@@ -668,8 +668,8 @@
     <Reference Include="Unity.VSCode.Editor">
         <HintPath>D:\UnRaf\3° año\IA\tp MaqEs\TP-IA\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.VisualScripting.Shared.Editor">
-        <HintPath>D:\UnRaf\3° año\IA\tp MaqEs\TP-IA\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
+    <Reference Include="Unity.ProBuilder.AddOns.Editor">
+        <HintPath>D:\UnRaf\3° año\IA\tp MaqEs\TP-IA\Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
         <HintPath>D:\UnRaf\3° año\IA\tp MaqEs\TP-IA\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
@@ -682,9 +682,6 @@
     </Reference>
     <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model">
         <HintPath>D:\UnRaf\3° año\IA\tp MaqEs\TP-IA\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Timeline.Editor">
-        <HintPath>D:\UnRaf\3° año\IA\tp MaqEs\TP-IA\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
         <HintPath>D:\UnRaf\3° año\IA\tp MaqEs\TP-IA\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
@@ -701,11 +698,14 @@
     <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
         <HintPath>D:\UnRaf\3° año\IA\tp MaqEs\TP-IA\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.ProBuilder">
+        <HintPath>D:\UnRaf\3° año\IA\tp MaqEs\TP-IA\Library\ScriptAssemblies\Unity.ProBuilder.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection">
         <HintPath>D:\UnRaf\3° año\IA\tp MaqEs\TP-IA\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.VisualScripting.Flow">
-        <HintPath>D:\UnRaf\3° año\IA\tp MaqEs\TP-IA\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
+    <Reference Include="Unity.ProBuilder.Editor">
+        <HintPath>D:\UnRaf\3° año\IA\tp MaqEs\TP-IA\Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
         <HintPath>D:\UnRaf\3° año\IA\tp MaqEs\TP-IA\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
@@ -716,20 +716,32 @@
     <Reference Include="Unity.Rider.Editor">
         <HintPath>D:\UnRaf\3° año\IA\tp MaqEs\TP-IA\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.TestTools.CodeCoverage.Editor">
-        <HintPath>D:\UnRaf\3° año\IA\tp MaqEs\TP-IA\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
+    <Reference Include="Unity.VisualScripting.Flow">
+        <HintPath>D:\UnRaf\3° año\IA\tp MaqEs\TP-IA\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
         <HintPath>D:\UnRaf\3° año\IA\tp MaqEs\TP-IA\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.State">
-        <HintPath>D:\UnRaf\3° año\IA\tp MaqEs\TP-IA\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Core">
         <HintPath>D:\UnRaf\3° año\IA\tp MaqEs\TP-IA\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
     </Reference>
     <Reference Include="Unity.EditorCoroutines.Editor">
         <HintPath>D:\UnRaf\3° año\IA\tp MaqEs\TP-IA\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
+        <HintPath>D:\UnRaf\3° año\IA\tp MaqEs\TP-IA\Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Shared.Editor">
+        <HintPath>D:\UnRaf\3° año\IA\tp MaqEs\TP-IA\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline.Editor">
+        <HintPath>D:\UnRaf\3° año\IA\tp MaqEs\TP-IA\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TestTools.CodeCoverage.Editor">
+        <HintPath>D:\UnRaf\3° año\IA\tp MaqEs\TP-IA\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.State">
+        <HintPath>D:\UnRaf\3° año\IA\tp MaqEs\TP-IA\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
