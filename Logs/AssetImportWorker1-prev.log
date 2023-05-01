@@ -1,11 +1,15 @@
 Using pre-set license
 Built from '2021.3/staging' branch; Version is '2021.3.23f1 (213b516bf396) revision 2177873'; Using compiler version '192829333'; Build Type 'Release'
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 23549589 (SEX)
 OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'es' Physical Memory: 6045 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
 C:\Users\Maximo\Desktop\Unity 2021.3.23f1\Editor\Unity.exe
+<<<<<<< HEAD
 =======
 OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'es' Physical Memory: 32677 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
@@ -13,12 +17,15 @@ BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, I
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\2021.3.23f1\Editor\Unity.exe
 >>>>>>> 3f20740846325851701b14c8bb2899154c2329fd
+=======
+>>>>>>> parent of 23549589 (SEX)
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker1
 -projectPath
+<<<<<<< HEAD
 <<<<<<< HEAD
 C:/Users/Maximo/Desktop/PIAPC/TP-IA
 -logFile
@@ -36,6 +43,21 @@ Logs/AssetImportWorker1.log
 Successfully changed project path to: C:/Users/Pedro/Desktop/Tp Gruapl Fuchibol/TP-IA
 C:/Users/Pedro/Desktop/Tp Gruapl Fuchibol/TP-IA
 >>>>>>> 3f20740846325851701b14c8bb2899154c2329fd
+=======
+C:/Users/Maximo/Desktop/PIAPC/TP-IA
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+<<<<<<<< HEAD:Logs/AssetImportWorker18-prev.log
+64577
+Successfully changed project path to: C:/Users/Maximo/Desktop/PIAPC/TP-IA
+C:/Users/Maximo/Desktop/PIAPC/TP-IA
+========
+50116
+Successfully changed project path to: C:/Users/Pedro/Desktop/Tp Gruapl Fuchibol/TP-IA
+C:/Users/Pedro/Desktop/Tp Gruapl Fuchibol/TP-IA
+>>>>>>>> parent of 23549589 (SEX):Logs/AssetImportWorker1-prev.log
+>>>>>>> parent of 23549589 (SEX)
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -65,13 +87,27 @@ C:/Users/Pedro/Desktop/Tp Gruapl Fuchibol/TP-IA
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
+<<<<<<< HEAD
 <<<<<<<< HEAD:Logs/AssetImportWorker2-prev.log
 <<<<<<< HEAD
+=======
+<<<<<<<< HEAD:Logs/AssetImportWorker18-prev.log
+>>>>>>> parent of 23549589 (SEX)
 Player connection [8712] Host "[IP] 192.168.0.113 [Port] 0 [Flags] 2 [Guid] 1387359972 [EditorId] 1387359972 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-R5CLT26) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
 Player connection [8712] Host "[IP] 192.168.0.113 [Port] 0 [Flags] 2 [Guid] 1387359972 [EditorId] 1387359972 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-R5CLT26) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 Refreshing native plugins compatible for Editor in 166.44 ms, found 3 plugins.
+<<<<<<< HEAD
+=======
+========
+Player connection [8180] Host "[IP] 192.168.0.9 [Port] 0 [Flags] 2 [Guid] 3800971437 [EditorId] 3800971437 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-CB745L2) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [8180] Host "[IP] 192.168.0.9 [Port] 0 [Flags] 2 [Guid] 3800971437 [EditorId] 3800971437 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-CB745L2) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 94.47 ms, found 3 plugins.
+>>>>>>>> parent of 23549589 (SEX):Logs/AssetImportWorker1-prev.log
+>>>>>>> parent of 23549589 (SEX)
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.23f1 (213b516bf396)
 [Subsystems] Discovering subsystems at path C:/Users/Maximo/Desktop/Unity 2021.3.23f1/Editor/Data/Resources/UnitySubsystems
@@ -84,6 +120,10 @@ Direct3D:
     VRAM:     3022 MB
     Driver:   31.0.12027.7000
 Initialize mono
+<<<<<<< HEAD
+=======
+<<<<<<<< HEAD:Logs/AssetImportWorker18-prev.log
+>>>>>>> parent of 23549589 (SEX)
 Mono path[0] = 'C:/Users/Maximo/Desktop/Unity 2021.3.23f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Users/Maximo/Desktop/Unity 2021.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Users/Maximo/Desktop/Unity 2021.3.23f1/Editor/Data/MonoBleedingEdge/etc'
@@ -100,6 +140,7 @@ Mono: successfully reloaded assembly
 Domain Reload Profiling:
 	ReloadAssembly (1690ms)
 		BeginReloadAssembly (333ms)
+<<<<<<< HEAD
 =======
 Player connection [4196] Host "[IP] 192.168.0.9 [Port] 0 [Flags] 2 [Guid] 2508475230 [EditorId] 2508475230 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-CB745L2) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 ========
@@ -121,6 +162,9 @@ Direct3D:
     VRAM:     3955 MB
     Driver:   30.0.14.7247
 Initialize mono
+=======
+========
+>>>>>>> parent of 23549589 (SEX)
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.23f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.23f1/Editor/Data/MonoBleedingEdge/etc'
@@ -137,11 +181,14 @@ Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
 - Completed reload, in  0.670 seconds
 Domain Reload Profiling:
+<<<<<<< HEAD
 <<<<<<<< HEAD:Logs/AssetImportWorker2-prev.log
 	ReloadAssembly (688ms)
 		BeginReloadAssembly (89ms)
 >>>>>>> 3f20740846325851701b14c8bb2899154c2329fd
 ========
+=======
+>>>>>>> parent of 23549589 (SEX)
 	ReloadAssembly (670ms)
 		BeginReloadAssembly (85ms)
 >>>>>>>> parent of 23549589 (SEX):Logs/AssetImportWorker1-prev.log
@@ -150,6 +197,10 @@ Domain Reload Profiling:
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<<< HEAD:Logs/AssetImportWorker18-prev.log
+>>>>>>> parent of 23549589 (SEX)
 			CreateAndSetChildDomain (2ms)
 		EndReloadAssembly (1145ms)
 			LoadAssemblies (321ms)
@@ -165,7 +216,11 @@ Domain Reload Profiling:
 				BeforeProcessingInitializeOnLoad (2ms)
 				ProcessInitializeOnLoadAttributes (301ms)
 				ProcessInitializeOnLoadMethodAttributes (116ms)
+<<<<<<< HEAD
 =======
+=======
+========
+>>>>>>> parent of 23549589 (SEX)
 			CreateAndSetChildDomain (1ms)
 		EndReloadAssembly (477ms)
 			LoadAssemblies (83ms)
@@ -181,16 +236,28 @@ Domain Reload Profiling:
 				BeforeProcessingInitializeOnLoad (1ms)
 				ProcessInitializeOnLoadAttributes (125ms)
 				ProcessInitializeOnLoadMethodAttributes (47ms)
+<<<<<<< HEAD
 >>>>>>> 3f20740846325851701b14c8bb2899154c2329fd
+=======
+>>>>>>>> parent of 23549589 (SEX):Logs/AssetImportWorker1-prev.log
+>>>>>>> parent of 23549589 (SEX)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
+<<<<<<< HEAD
 <<<<<<<< HEAD:Logs/AssetImportWorker2-prev.log
 <<<<<<< HEAD
 Registered in 0.064680 seconds.
+=======
+<<<<<<<< HEAD:Logs/AssetImportWorker18-prev.log
+Registered in 0.064680 seconds.
+========
+Registered in 0.005091 seconds.
+>>>>>>>> parent of 23549589 (SEX):Logs/AssetImportWorker1-prev.log
+>>>>>>> parent of 23549589 (SEX)
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Maximo\Desktop\PIAPC\TP-IA\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Maximo\Desktop\PIAPC\TP-IA\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
@@ -198,14 +265,31 @@ Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 2.15 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
+<<<<<<< HEAD
+=======
+<<<<<<<< HEAD:Logs/AssetImportWorker18-prev.log
+>>>>>>> parent of 23549589 (SEX)
 - Completed reload, in  3.158 seconds
 Domain Reload Profiling:
 	ReloadAssembly (3160ms)
 		BeginReloadAssembly (687ms)
+<<<<<<< HEAD
+=======
+========
+- Completed reload, in  1.056 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1056ms)
+		BeginReloadAssembly (121ms)
+>>>>>>>> parent of 23549589 (SEX):Logs/AssetImportWorker1-prev.log
+>>>>>>> parent of 23549589 (SEX)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (11ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
+<<<<<<< HEAD
+=======
+<<<<<<<< HEAD:Logs/AssetImportWorker18-prev.log
+>>>>>>> parent of 23549589 (SEX)
 			CreateAndSetChildDomain (35ms)
 		EndReloadAssembly (2226ms)
 			LoadAssemblies (752ms)
@@ -222,6 +306,7 @@ Domain Reload Profiling:
 				ProcessInitializeOnLoadAttributes (541ms)
 				ProcessInitializeOnLoadMethodAttributes (36ms)
 				AfterProcessingInitializeOnLoad (19ms)
+<<<<<<< HEAD
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (14ms)
@@ -256,6 +341,9 @@ Domain Reload Profiling:
 			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
+=======
+========
+>>>>>>> parent of 23549589 (SEX)
 			CreateAndSetChildDomain (18ms)
 		EndReloadAssembly (817ms)
 			LoadAssemblies (87ms)
@@ -272,6 +360,7 @@ Domain Reload Profiling:
 				ProcessInitializeOnLoadAttributes (234ms)
 				ProcessInitializeOnLoadMethodAttributes (19ms)
 				AfterProcessingInitializeOnLoad (9ms)
+<<<<<<< HEAD
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (6ms)
@@ -290,6 +379,29 @@ Total: 2.920200 ms (FindLiveObjects: 0.365900 ms CreateObjectMapping: 0.084300 m
 ========
 Unloading 25 unused Assets / (150.9 KB). Loaded Objects now: 3891.
 Memory consumption went from 123.7 MB to 123.5 MB.
+=======
+>>>>>>>> parent of 23549589 (SEX):Logs/AssetImportWorker1-prev.log
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+<<<<<<<< HEAD:Logs/AssetImportWorker18-prev.log
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.22 seconds
+Refreshing native plugins compatible for Editor in 1.04 ms, found 3 plugins.
+========
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
+>>>>>>>> parent of 23549589 (SEX):Logs/AssetImportWorker1-prev.log
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3430 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (150.9 KB). Loaded Objects now: 3891.
+Memory consumption went from 123.7 MB to 123.5 MB.
+<<<<<<<< HEAD:Logs/AssetImportWorker18-prev.log
+Total: 5.847100 ms (FindLiveObjects: 0.468100 ms CreateObjectMapping: 0.166300 ms MarkObjects: 4.941300 ms  DeleteObjects: 0.269300 ms)
+========
+>>>>>>> parent of 23549589 (SEX)
 Total: 3.404900 ms (FindLiveObjects: 0.386200 ms CreateObjectMapping: 0.080500 ms MarkObjects: 2.790400 ms  DeleteObjects: 0.146600 ms)
 >>>>>>>> parent of 23549589 (SEX):Logs/AssetImportWorker1-prev.log
 
@@ -303,19 +415,28 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+<<<<<<< HEAD
 <<<<<<<< HEAD:Logs/AssetImportWorker2-prev.log
 ========================================================================
 Received Import Request.
 <<<<<<< HEAD
+=======
+<<<<<<<< HEAD:Logs/AssetImportWorker18-prev.log
+========================================================================
+Received Import Request.
+>>>>>>> parent of 23549589 (SEX)
   Time since last request: 358665.569618 seconds.
   path: Assets/Scripts
   artifactKey: Guid(70ffeae6b4c31704381d1c36e68004af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Scripts using Guid(70ffeae6b4c31704381d1c36e68004af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '206ebe7e000e06f5bd76bea9a104f276') in 0.024936 seconds 
+<<<<<<< HEAD
 =======
   Time since last request: 6600.212231 seconds.
   path: Assets/Blender/Arco.fbx
   artifactKey: Guid(a74e78a89f3b61a408fc6e507beae773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Blender/Arco.fbx using Guid(a74e78a89f3b61a408fc6e507beae773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e409b15cc7d2c20295e5bd698f8a625d') in 0.208854 seconds 
 >>>>>>> 3f20740846325851701b14c8bb2899154c2329fd
+=======
+>>>>>>> parent of 23549589 (SEX)
 ========
 >>>>>>>> parent of 23549589 (SEX):Logs/AssetImportWorker1-prev.log
