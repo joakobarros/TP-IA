@@ -10,11 +10,11 @@ public class Vision : MonoBehaviour
 
     public Vector3 offset = new Vector3(0f, 0.75f, 0f);
 
-    private NavMesh controladorNavMesh;
+    private NavMesh navMesh;
 
     void Awake()
     {
-        controladorNavMesh = GetComponent<NavMesh>();
+        navMesh = GetComponent<NavMesh>();
     }
 
     public bool verAlJugador(out RaycastHit hit, bool mirarHaciaElJugador = false)
@@ -23,7 +23,7 @@ public class Vision : MonoBehaviour
 
         if (mirarHaciaElJugador)
         {
-            vectorDireccion = (controladorNavMesh.perseguirObjetivo.position + offset) - Ojos.position;     
+            vectorDireccion = (navMesh.perseguirObjetivo.position + offset) - Ojos.position;     
         }
 
         return Physics.Raycast(Ojos.position, Ojos.forward, out hit, rangoVision) && hit.collider.CompareTag("Player");

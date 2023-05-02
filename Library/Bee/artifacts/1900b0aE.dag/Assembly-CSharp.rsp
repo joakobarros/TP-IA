@@ -350,7 +350,6 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/Scripts/Enemigos.cs"
-"Assets/Scripts/Estado.cs"
 "Assets/Scripts/EstadoAlerta.cs"
 "Assets/Scripts/EstadoNormal.cs"
 "Assets/Scripts/EstadoPersecucion.cs"

@@ -4,20 +4,19 @@ using UnityEngine;
 
 public class MaquinaDeEstados: MonoBehaviour
 {
-    public Estado EstadoNormal;
-    public Estado EstadoAlerta;
-    public Estado EstadoPersecucion;
-    public Estado EstadoInicial;
+    public MonoBehaviour EstadoNormal;
+    public MonoBehaviour EstadoAlerta;
+    public MonoBehaviour EstadoPersecucion;
+    public MonoBehaviour EstadoInicial;
 
-
-    private Estado EstadoActual;
+    private MonoBehaviour EstadoActual;
 
     void Start()
     {
         ActivarEstado(EstadoInicial);
     }
 
-    public void ActivarEstado(Estado nuevoEstado)
+    public void ActivarEstado(MonoBehaviour nuevoEstado)
     {
         if (EstadoActual != null) EstadoActual.enabled = false;
         EstadoActual = nuevoEstado;
