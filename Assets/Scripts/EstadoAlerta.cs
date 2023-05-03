@@ -16,9 +16,9 @@ public class EstadoAlerta : MonoBehaviour
 
     void Awake()
     {
+        maquinaDeEstados = GetComponent<MaquinaDeEstados>();
         navMesh = GetComponent<NavMesh>();
         vision = GetComponent<Vision>();
-        maquinaDeEstados = GetComponent<MaquinaDeEstados>();
     }
 
     void OnEnable()

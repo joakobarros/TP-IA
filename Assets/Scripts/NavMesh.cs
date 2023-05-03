@@ -30,7 +30,7 @@ public class NavMesh : MonoBehaviour
     {
         navMeshAgent.Stop();
     }
-    
+
     public bool HemosLlegado()
     {
         return navMeshAgent.remainingDistance <= navMeshAgent.stoppingDistance && !navMeshAgent.pathPending;

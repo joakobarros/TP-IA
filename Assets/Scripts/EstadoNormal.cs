@@ -6,17 +6,20 @@ public class EstadoNormal: MonoBehaviour
 {
     public Transform[] WayPoints;
 
-    private Vision vision;
     private NavMesh navMesh;
     private MaquinaDeEstados maquinaDeEstados;
+    private Vision vision;
+    
+    
     private int siguienteWayPoint;
 
     void Awake()
     {
-        
-        vision = GetComponent<Vision>();
         navMesh = GetComponent<NavMesh>();
         maquinaDeEstados = GetComponent<MaquinaDeEstados>();
+        vision = GetComponent<Vision>();
+        
+        
     }
 
     void Update()
@@ -34,7 +37,6 @@ public class EstadoNormal: MonoBehaviour
         if (navMesh.HemosLlegado())
         {
             siguienteWayPoint = (siguienteWayPoint + 1) % WayPoints.Length;
-
             ActualizarWayPointDestino();
 
         }
