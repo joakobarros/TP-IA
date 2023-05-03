@@ -6,14 +6,12 @@ public class EstadoAlerta : MonoBehaviour
 {
     public float velocidadGiroBusqueda = 120f;
 
-    //busqueda
     public float duracionBusqueda = 4f;
 
     private MaquinaDeEstados maquinaDeEstados;
     private NavMesh navMesh;
     private Vision vision;
 
-    //busqueda
     private float tiempoBuscando;
 
     void Awake()
@@ -29,7 +27,6 @@ public class EstadoAlerta : MonoBehaviour
         tiempoBuscando = 0f;
     }
 
-    // Update is called once per frame
     void Update()
     {
 
@@ -43,14 +40,12 @@ public class EstadoAlerta : MonoBehaviour
 
         transform.Rotate(0f, velocidadGiroBusqueda * Time.deltaTime, 0f);
 
-        //busqueda
         tiempoBuscando += Time.deltaTime;
         if(tiempoBuscando >= duracionBusqueda)
         {
             maquinaDeEstados.ActivarEstado(maquinaDeEstados.EstadoNormal);
             return;
         }
-
 
     }
 }

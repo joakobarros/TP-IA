@@ -19,11 +19,6 @@ public class EstadoNormal: MonoBehaviour
         maquinaDeEstados = GetComponent<MaquinaDeEstados>();
     }
 
-    void Start()
-    {
-        
-    }
-
     void Update()
     {
         //ve al jugador con los ojos
@@ -39,6 +34,7 @@ public class EstadoNormal: MonoBehaviour
         if (navMesh.HemosLlegado())
         {
             siguienteWayPoint = (siguienteWayPoint + 1) % WayPoints.Length;
+
             ActualizarWayPointDestino();
 
         }
