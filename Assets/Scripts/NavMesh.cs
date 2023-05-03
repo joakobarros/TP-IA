@@ -21,7 +21,7 @@ public class NavMesh : MonoBehaviour
         navMeshAgent.Resume();
     }
 
-    public void ActualizarPuntoDestinoNMA()
+    public void ActualizarPuntoDestinoNavMeshAgent()
     {
         ActualizarPuntoDestinoNMA(perseguirObjetivo.position);
     }

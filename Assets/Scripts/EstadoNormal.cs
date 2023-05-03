@@ -38,7 +38,6 @@ public class EstadoNormal: MonoBehaviour
         {
             siguienteWayPoint = (siguienteWayPoint + 1) % WayPoints.Length;
             ActualizarWayPointDestino();
-
         }
     }
 

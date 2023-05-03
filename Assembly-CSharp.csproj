@@ -36,9 +36,9 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\Target.cs" />
      <Compile Include="Assets\Scripts\Vision.cs" />
      <Compile Include="Assets\Scripts\EstadoPersecucion.cs" />
-     <Compile Include="Assets\Scripts\Enemigos.cs" />
      <Compile Include="Assets\Scripts\Player.cs" />
      <Compile Include="Assets\Scripts\EstadoNormal.cs" />
      <Compile Include="Assets\Scripts\EstadoAlerta.cs" />
