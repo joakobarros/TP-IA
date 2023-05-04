@@ -23,7 +23,7 @@ public class Player : MonoBehaviour
       Camara();
     }
 
-    private void Movimiento()
+    public void Movimiento()
     {    
         float hor = Input.GetAxis("Horizontal");
         float ver = Input.GetAxis("Vertical");
@@ -46,4 +46,5 @@ public class Player : MonoBehaviour
             transform.Rotate(0, hor * sensibilidad.x, 0);
         }
     }
+
 }

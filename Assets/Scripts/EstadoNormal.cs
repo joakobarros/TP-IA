@@ -17,9 +17,7 @@ public class EstadoNormal: MonoBehaviour
     {
         navMesh = GetComponent<NavMesh>();
         maquinaDeEstados = GetComponent<MaquinaDeEstados>();
-        vision = GetComponent<Vision>();
-        
-        
+        vision = GetComponent<Vision>(); 
     }
 
     void Update()
@@ -56,6 +54,7 @@ public class EstadoNormal: MonoBehaviour
         if(other.gameObject.CompareTag("Player") && enabled)
         {
             maquinaDeEstados.ActivarEstado(maquinaDeEstados.EstadoAlerta);
+
         }
     }
 }
