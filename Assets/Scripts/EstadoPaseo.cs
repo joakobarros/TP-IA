@@ -16,7 +16,7 @@ public class EstadoPaseo: MonoBehaviour
 
     void OnEnable()
     {
-        player.velMovimiento = 800;
+        player.velMovimiento = 1200;
     }
 
     private void OnTriggerEnter(Collider other)
