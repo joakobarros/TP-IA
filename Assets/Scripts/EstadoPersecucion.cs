@@ -27,6 +27,6 @@ public class EstadoPersecucion: MonoBehaviour
             return;
         }
 
-        navMesh.ActualizarPuntoDestinoNMA();
+        navMesh.ActualizarPuntoDestinoNavMeshAgent();
     }
 }

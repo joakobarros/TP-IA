@@ -18,19 +18,19 @@ public class NavMesh : MonoBehaviour
     public void ActualizarPuntoDestinoNMA(Vector3 puntoDestino)
     {
         navMeshAgent.destination = puntoDestino;
-        navMeshAgent.Resume();
+        navMeshAgent.isStopped = false;
     }
 
-    public void ActualizarPuntoDestinoNMA()
+    public void ActualizarPuntoDestinoNavMeshAgent()
     {
         ActualizarPuntoDestinoNMA(perseguirObjetivo.position);
     }
 
     public void DetenerNMA()
     {
-        navMeshAgent.Stop();
+        navMeshAgent.isStopped = true;
     }
-    
+
     public bool HemosLlegado()
     {
         return navMeshAgent.remainingDistance <= navMeshAgent.stoppingDistance && !navMeshAgent.pathPending;

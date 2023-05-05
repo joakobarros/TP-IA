@@ -6,28 +6,23 @@ public class EstadoNormal: MonoBehaviour
 {
     public Transform[] WayPoints;
 
-    private Vision vision;
     private NavMesh navMesh;
     private MaquinaDeEstados maquinaDeEstados;
+    private Vision vision;
+    
+    
     private int siguienteWayPoint;
 
     void Awake()
     {
-        
-        vision = GetComponent<Vision>();
         navMesh = GetComponent<NavMesh>();
         maquinaDeEstados = GetComponent<MaquinaDeEstados>();
-    }
-
-    void Start()
-    {
-        
+        vision = GetComponent<Vision>(); 
     }
 
     void Update()
     {
-        //ve al jugador con los ojos
-
+    
         RaycastHit hit;
         if(vision.verAlJugador(out hit))
         {
@@ -40,11 +35,11 @@ public class EstadoNormal: MonoBehaviour
         {
             siguienteWayPoint = (siguienteWayPoint + 1) % WayPoints.Length;
             ActualizarWayPointDestino();
-
         }
+
     }
 
-    void OnEnabled()
+    void OnEnable()
     {
         ActualizarWayPointDestino();
     }
@@ -59,6 +54,7 @@ public class EstadoNormal: MonoBehaviour
         if(other.gameObject.CompareTag("Player") && enabled)
         {
             maquinaDeEstados.ActivarEstado(maquinaDeEstados.EstadoAlerta);
+
         }
     }
 }
