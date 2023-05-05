@@ -14,13 +14,18 @@ public class EstadoPerseguido: MonoBehaviour
         player = GetComponent<Player>();
     }
 
-   void OnEnabled()
+    void OnEnable()
     {
-       player.velMovimiento = 7f;
+        player.velMovimiento = 1500;
     }
 
-    public void OnTriggerExit()
+    private void OnTriggerExit(Collider other)
     {
-        maquinaDeEstados.ActivarEstado(maquinaDeEstados.EstadoPaseo);
+        if (other.gameObject.CompareTag ("Egoista"))
+        { 
+            maquinaDeEstados.ActivarEstado(maquinaDeEstados.EstadoPaseo);
+            
+        }
+            
     }
  }
