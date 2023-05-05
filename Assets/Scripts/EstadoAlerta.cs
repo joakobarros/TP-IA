@@ -8,11 +8,15 @@ public class EstadoAlerta : MonoBehaviour
 
     public float duracionBusqueda = 4f;
 
+
     private MaquinaDeEstados maquinaDeEstados;
     private NavMesh navMesh;
     private Vision vision;
 
-    private float tiempoBuscando;
+    private float tiempoActual;
+    public float setTime = 4;
+
+
 
     void Awake()
     {
@@ -24,11 +28,12 @@ public class EstadoAlerta : MonoBehaviour
     void OnEnable()
     {
         navMesh.DetenerNMA();
-        tiempoBuscando = 0f;
+        tiempoActual = setTime;
     }
-
+   
     void Update()
     {
+        tiempoActual -= Time.deltaTime;
 
         RaycastHit hit;
         if (vision.verAlJugador(out hit))
@@ -37,15 +42,16 @@ public class EstadoAlerta : MonoBehaviour
             maquinaDeEstados.ActivarEstado(maquinaDeEstados.EstadoPersecucion);
             return;
         }
-
+        
         transform.Rotate(0f, velocidadGiroBusqueda * Time.deltaTime, 0f);
 
-        tiempoBuscando += Time.deltaTime;
-        if(tiempoBuscando >= duracionBusqueda)
+        if(tiempoActual <= 0)
         {
             maquinaDeEstados.ActivarEstado(maquinaDeEstados.EstadoNormal);
+            tiempoActual = setTime;
             return;
         }
 
     }
 }
+

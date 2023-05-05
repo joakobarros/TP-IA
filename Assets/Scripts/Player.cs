@@ -5,22 +5,23 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     private new Rigidbody rigidbody;
+
     public float velMovimiento;
 
     public Vector2 sensibilidad;
 
     void Start()
-    {
+    { 
         rigidbody = GetComponent<Rigidbody>();
-
         Cursor.lockState = CursorLockMode.Locked;
     }
 
     // Update is called once per frame
-    void Update()
-    {
-      Movimiento();
-      Camara();
+    public void Update()
+    {      
+        Movimiento();
+        Camara();
+
     }
 
     public void Movimiento()
@@ -32,7 +33,7 @@ public class Player : MonoBehaviour
         {
             Vector3 direction = (transform.forward * ver + transform.right * hor).normalized;
 
-            rigidbody.velocity = direction * velMovimiento;
+            rigidbody.velocity = direction * velMovimiento * Time.deltaTime;
         }
     }
 
@@ -46,5 +47,6 @@ public class Player : MonoBehaviour
             transform.Rotate(0, hor * sensibilidad.x, 0);
         }
     }
+
 
 }

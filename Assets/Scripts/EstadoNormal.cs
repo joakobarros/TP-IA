@@ -22,8 +22,7 @@ public class EstadoNormal: MonoBehaviour
 
     void Update()
     {
-        //ve al jugador con los ojos
-
+    
         RaycastHit hit;
         if(vision.verAlJugador(out hit))
         {
@@ -37,9 +36,10 @@ public class EstadoNormal: MonoBehaviour
             siguienteWayPoint = (siguienteWayPoint + 1) % WayPoints.Length;
             ActualizarWayPointDestino();
         }
+
     }
 
-    void OnEnabled()
+    void OnEnable()
     {
         ActualizarWayPointDestino();
     }

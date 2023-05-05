@@ -14,14 +14,14 @@ public class EstadoPaseo: MonoBehaviour
         player = GetComponent<Player>();
     }
 
-   void OnEnabled()
+    void OnEnable()
     {
-       player.velMovimiento = 5f;
+        player.velMovimiento = 800;
     }
 
-    public void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter(Collider other)
     {
-        if(other.gameObject.CompareTag("Egoista") && enabled)
+        if(other.gameObject.CompareTag("Egoista"))
         {
             maquinaDeEstados.ActivarEstado(maquinaDeEstados.EstadoPerseguido);
         }
