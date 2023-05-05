@@ -6,10 +6,6 @@ using UnityEngine.SceneManagement;
 
 public class Escenas : MonoBehaviour
 {
-    public void escenaStart()
-    {
-        SceneManager.LoadScene("Start");
-    }
     public void escenaJuego()
     {
         SceneManager.LoadScene("SampleScene");

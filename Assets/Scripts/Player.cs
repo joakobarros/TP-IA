@@ -44,7 +44,7 @@ public class Player : MonoBehaviour
         {
             Vector3 direction = (transform.forward * ver + transform.right * hor).normalized;
 
-            rigidbody.velocity = direction * velMovimiento * Time.deltaTime;
+            rigidbody.velocity = direction * velMovimiento;
         }
     }
 
