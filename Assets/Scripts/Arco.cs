@@ -8,11 +8,11 @@ public class Arco : MonoBehaviour
     public GameObject cubo2;
     private BoxCollider boxCollider;
     
+    
 
     private void Awake()
     {
         boxCollider = GetComponent<BoxCollider>();
-        
     }
     private void Start()
     {

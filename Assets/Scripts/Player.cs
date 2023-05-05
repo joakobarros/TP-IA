@@ -5,14 +5,17 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     private new Rigidbody rigidbody;
-
+    private Escenas escenas;
     public float velMovimiento;
+    public int contar;
 
     public Vector2 sensibilidad;
 
     void Start()
-    { 
+    {
+        contar = 0;
         rigidbody = GetComponent<Rigidbody>();
+        escenas = GetComponent<Escenas>();
         Cursor.lockState = CursorLockMode.Locked;
     }
 
@@ -21,6 +24,14 @@ public class Player : MonoBehaviour
     {      
         Movimiento();
         Camara();
+
+        if (contar == 3)
+        {
+            AudioSource audios = FindObjectOfType<AudioSource>();
+            audios.Pause();
+            escenas.escenaEnd();
+
+        }
 
     }
 
@@ -39,14 +50,25 @@ public class Player : MonoBehaviour
 
     private void Camara()
     {
-        float hor = Input.GetAxis("Mouse X");
-        float ver = Input.GetAxis("Mouse Y");
-
-        if (hor != 0)
+        if(contar < 3)
         {
-            transform.Rotate(0, hor * sensibilidad.x, 0);
+            float hor = Input.GetAxis("Mouse X");
+            float ver = Input.GetAxis("Mouse Y");
+
+            if (hor != 0)
+            {
+                transform.Rotate(0, hor * sensibilidad.x, 0);
+            }
         }
+        
     }
 
+    private void OnTriggerEnter(Collider other)
+    {
+        if(other.tag == "Arco")
+        {
+            contar += 1;
+        }
+    }
 
 }

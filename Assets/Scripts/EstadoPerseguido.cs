@@ -16,7 +16,7 @@ public class EstadoPerseguido: MonoBehaviour
 
     void OnEnable()
     {
-        player.velMovimiento = 2000;
+        player.velMovimiento = 1900;
     }
 
     private void OnTriggerExit(Collider other)
